@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hello, thanks for visiting!", "Good to see you again!", "Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting!", "Have a great day!", "Bye! Come back again soon."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["When are you open?", "What are your hours?", "Hours of operation"],
+      "responses": ["We are open 9am-9pm every day."]
+    },
+    {
+      "tag": "returns",
+      "patterns": ["How do I return something?", "What is your return policy?", "Can I get a refund?"],
+      "responses": ["You can return items within 30 days of purchase with a receipt."]
+    }
+  ]
+}
